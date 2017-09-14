@@ -62,10 +62,13 @@ You can call this something "on" or "isRunning".
   - The Stopwatch should count like the Timer but you should be able to start and stop it by 
   clicking the button.
     - The button should use onClick, something like this: 
-    ```
+
+```
 <button onClick={ () => {
         this.startStop(); // Call a method here...
-      } }>start</button>```
+      } }>start</button>
+```
+    
     - Bonus: The label changes to say start when the Stopwatch is stopped and Stop when the 
     Stopwatch is running. 
     - Bonus: Build this component by composing other components. To make this work the 
