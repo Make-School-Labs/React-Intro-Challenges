@@ -80,10 +80,13 @@ code set up. You can open this file in any browser to test your solutions.
   - Bonus: Define a simple component for each list item. Give it at least two properties to display. 
   Reuse your title and subtitle component here. 
   - Bonus: Make a list of timers each with a start/stop button. 
-  - 
+  - Bonus: Make a button that adds a new item to the list. To make this work the list should be 
+  a stateful component, and the array data displayed by the list should be part of state for that 
+  component. 
 8. Make a counter. It should have an up and down button, and a display to show the count. Clicking 
   the up button adds 1 to the count, clicking the down button subtracts 1 from the count. 
-  - Bonus: You reused one or more of your other components. 
+  - Bonus: You reused one or more of your other components.
+  
 
 
 
