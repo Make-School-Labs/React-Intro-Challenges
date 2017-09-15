@@ -1,6 +1,12 @@
 # React-Intro-Challenges
 
-React Intro challenges starter project.
+React Intro challenges starter project. 
+
+- Fork this repo, edit the `index.html` to solve the challenge problems. 
+- Push changes to your repo. 
+- Check off the challenges you have completed [here](https://docs.google.com/a/makegameswith.us/spreadsheets/d/1Ndb_QlywnaIZQ7ML7JrpCQYUlGq-8GNfwJWh9DiU2zk/edit?usp=sharing)
+- Pair with another student if you get stuck. 
+- Code review with instructor when you have completed all challenges. 
 
 ## Challenges
 
