@@ -13,9 +13,6 @@
             font-size: 18px;
         }
         
-        h1 {
-            text-align: center;
-        }
     </style>
 </head>
 
@@ -45,6 +42,35 @@
         }
         // --------------------------------
         
+        
+        
+        
+        
+        
+        // --------------------------------
+        // List 
+        // --------------------------------
+        
+        // These things will be displayed in the list. 
+        const things = ["A", "B", "C"];
+
+        // This component will display a list of items provided by an array
+        // on props. Best practice, transform the array into an array of JSX!
+        // React will render the entire list if given an array of JSX items. 
+        // Each item should have a unique key value!
+        
+        const List = (props) => {
+          const items = props.items.map((item, index) => {
+            return <li key={index}>{item}</li>;
+          });
+          
+          return (
+            <ul>
+              {items}
+            </ul>
+          );
+        }
+        // ----------------------------------
         
         
         
@@ -104,37 +130,6 @@
             }
         }
         // -------------------------------- 
-
-
-
-
-
-
-        // --------------------------------
-        // List 
-        // --------------------------------
-
-        // This component will display a list of items provided by an array
-        // on props. Best practice, transform the array into an array of JSX!
-        // React will render the entire list if given an array of JSX items. 
-        // Each item should have a unique key value!
-        
-        const List = (props) => {
-          const items = props.items.map((item, index) => {
-            return <li key={index}>{item}</li>;
-          });
-          
-          return (
-            <ul>
-              {items}
-            </ul>
-          );
-        }
-        // ----------------------------------
-        
-        
-        // These things will be displayed in the list. 
-        const things = ["A", "B", "C"];
       
   
 
